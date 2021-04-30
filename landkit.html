@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LandKit Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mycontainer">
+        <header>
+            <h3 class="brand-name">Landkit</h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list text-primary small-scr" onclick="clickMe()"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+            <select name="dropdown" id="dropdown">
+                <option value="Landings"><a href="#">Landings</a></option>
+                <option value="Pages"><a href="#">Pages</a></option>
+                <option value="Docs"><a href="#">Docs</a></option>
+            </select>
+            <nav class="mynavbar">
+                <ul>
+                    <li><a href="#">Landings</a></li>
+                    <li><a href="#">Pages</a></li>
+                    <li><a href="#">Documentation</a></li>
+                </ul>
+            </nav>
+            <button class="buynow">Buy Now</button>
+        </header>
+        <br> <br>
+        <div class="myrow">
+            <div class="flex1">
+                <h1>Welcome to <b class="bold">Landkit</b> <br>
+                    Develop anything.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit <br> Temporibus consectetur distinction.</p>
+                <button class="mybtn1">Get started</button>
+                <button class="mybtn2">View all pages</button>
+            </div>
+
+            <div class="flex2">
+                <img class="mysvg" src="images/lkimage.svg" alt="svg-image" class="myimage">
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="myrow">
+            <div class="flex-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-slash bi-type-bold text-primary"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
+                </svg>
+                <h5>Built for Developers</h5>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos, minima? Laborum, unde! Maxime ex laudantium accusantium consequuntur molestias.</p>
+            </div>
+
+            <div class="flex-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-up text-primary"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M11.5 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L11 2.707V14.5a.5.5 0 0 0 .5.5zm-7-14a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L4 13.293V1.5a.5.5 0 0 1 .5-.5z" />
+                </svg>
+                <h5>Designed to be modern</h5>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos, minima? Laborum, unde! Maxime ex laudantium accusantium consequuntur molestias.</p>
+            </div>
+
+            <div class="flex-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-check-fill text-primary"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm1.354 4.354-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 9.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+                </svg>
+                <h5>Documentation for Everything</h5>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos, minima? Laborum, unde! Maxime ex laudantium accusantium consequuntur molestias.</p>
+            </div>
+        </div>
+        <br>
+        <button class="pagebtn"><a href="index.html">Go back</a></button>
+        <br>
+        <br>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
